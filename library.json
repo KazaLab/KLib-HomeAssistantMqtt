@@ -1,0 +1,22 @@
+{
+  "name": "KLib-HomeAssistantMqtt",
+  "version": "1.0.0",
+  "description": "Library to simplify MQTT auto-discovery for Home Assistant",
+  "keywords": "mqtt, home assistant, iot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KazaLab/KLib-HomeAssistantMqtt.git"
+  },
+  "authors": [
+    {
+      "name": "Julien K.",
+      "email": "code@juli3n.xyz",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": {
+    "knolleary/pubsubclient": "^2.8.0"
+  }
+}
